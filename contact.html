@@ -10,6 +10,10 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/public.css" rel="stylesheet">
+    <link href="css/templates.css" rel="stylesheet">
+    <link href="css/hoverex-all.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
     <link href="css/contact.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -33,7 +37,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="container">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <h2 class="logo1"><img src="img/logo.png" alt=""></h2>
+                <h2 class="logo1"><img src="img/toplogo.png" alt=""></h2>
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">首页</a></li>
                     <li><a href="room.html">客房</a></li>
@@ -48,45 +52,68 @@
 </nav>
 <!--banner-->
 <div class="container-fluid contact">
-    <!--<h2>同样的旅途&nbsp;&nbsp;不一样的体验</h2>-->
-    <!--<p>The same journey&nbsp;&nbsp;different experience </p>-->
+    <h3 class="one">寻找弥尔之家</h3>
+    <p>让心找到一个安静的地方</p>
+    <h2>Let the heart find a quiet place</h2>
 </div>
-<!--touch-->
 <div class="container1 touch">
-    <div class="left fl">
-        <div class="top">
-            <img src="img/pic.png" alt="">
+    <div class="hot-text">
+        <h2>联系我们</h2>
+        <p> CONTACT US</p>
+    </div>
+    <div class="write">
+        <div class="first">
+            <div class="left fl">
+                <span>姓名</span>
+                <p><input type="text"></p>
+            </div>
+            <div class="right fr">
+                <span>邮箱</span>
+                <p><input type="text"></p>
+            </div>
         </div>
-        <div class="bottom">
-            <p>商务合作：<span>88888888@163.com</span></p>
-            <p class="bot">联系电话：<span>189-4300-6095</span></p>
-            <p>媒体合作：<span>88888888@163.com</span></p>
-            <p class="bot">联系电话：<span>153-6789-4567</span></p>
-            <p>邮政编码：<span>700000</span></p>
-            <p>工作时间：<span>周一-周五9：00——18:00</span></p>
-            <p class="bot">公司地址：<span>长春大学6543号</span></p>
+        <div class="first">
+            <div class="left fl">
+                <span>手机</span>
+                <p><input type="text"></p>
+            </div>
+            <div class="right fr">
+                <span>地区</span>
+                <p><input type="text"></p>
+            </div>
+        </div>
+        <textarea>需求/意见：</textarea>
+    </div>
+    <button class="button but">点击提交</button>
+    <div class="text1">
+        <h2>公司地址</h2>
+        <p> COMPANY ADSRESS</p>
+    </div>
+</div>
+<div class="container-fluid map1">
+    <div id="allmap"></div>
+    <div class="map">
+        <h2>一我们在这里一</h2>
+        <div class="fl">
+            <img src="img/bbbbbb.png" alt="">
+        </div>
+        <div class="fr">
+            <h3>弥尔皇家酒店</h3>
+            <p>邀您体验极致享受</p>
+            <p>欢迎加入我们</p>
         </div>
     </div>
-    <div class="right fl">
-        <div class="top">
-            <h2>GET IN TOUCH!</h2>
-            <p class="welcome">欢迎来到弥尔</p>
-            <p><input type="text" placeholder="您的名字..."></p>
-            <p><input type="text" placeholder="您的邮箱..."></p>
-            <p><input type="text" placeholder="您的建议..."></p>
-            <button>联系我们</button>
-        </div>
-        <div class="bottom">
-            <div id="allmap"></div>
-        </div>
-    </div>
+</div>
+<div class="container2 contact-text">
+    <p>乘车路线：乘坐地铁1号线至迎泽路A口出走100米一刻到达 </p>
+    <p>公交车路线：乘坐1路、12路、 15路到迎泽路站牌下车向北走100min即可到达</p>
 </div>
 <!--footer-->
 <footer>
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-md-offset-1">
-                <h1 class="logo"><img src="img/logo.png" alt=""></h1>
+                <h1 class="logo"><img src="img/footlogo.png" alt=""></h1>
             </div>
             <div class="col-md-3">
                 <h2>地址</h2>
@@ -107,7 +134,10 @@
 </footer>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=dGaqkooeVus8xLkgvQEyXw3M4wgvnyTP"></script>
+<script src="js/jquery.hoverex.js"></script>
+<script src="js/textyleF.js"></script>
 <script src="js/contact.js"></script>
 </body>
 </html>

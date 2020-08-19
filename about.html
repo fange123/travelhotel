@@ -11,6 +11,8 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/public.css" rel="stylesheet">
     <link href="css/d.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
     <link href="css/about.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -33,7 +35,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="container">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <h2 class="logo1"><img src="img/logo.png" alt=""></h2>
+                <h2 class="logo1"><img src="img/toplogo.png" alt=""></h2>
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">首页</a></li>
                     <li><a href="room.html">客房</a></li>
@@ -48,22 +50,27 @@
 </nav>
 <!--banner-->
 <div class="container-fluid about">
-    <!--<h2>关于我们</h2>-->
-    <!--<p>优养于境&nbsp;&nbsp;逸举于心</p>-->
+    <div class="jumbotron">
+        <p class="tlt" data-in-effect="bounceInDown">欢迎到来</p>
+        <h1 class="tlt">这里是弥尔皇家酒店</h1>
+    </div>
+
+
+    <button class="aboutbtn">查看更多</button>
 </div>
 <!--我们是谁-->
 <div class="container1">
-    <div class="who">
+    <div class="who whotop">
         <div class="left fl">
             <img src="img/about01.png" alt="" class="img1">
         </div>
         <div class="right fl">
             <div class="abouttit">
-                <h2 class="danceWord-s5">我们是谁？</h2>
-                <p class="danceWord-s5 subtit">起价为每天320元</p>
-                <p class="danceWord-s7 p1">弥尔酒店是以丰富历史文化底蕴和卓越服务著称的弥尔酒店，于2004年荣膺泉州市首家五星级酒店。酒店位于中国历史文化名城泉州的核心商业区，地理位置优越，“时尚购物，近在咫尺”。</p>
-                <h3><button>了解详情</button></h3>
+                <h2 class="words3"></h2>
+                <p class="subtit show2">起价为每天320元</p>
+                <p class="p1 words4"></p>
             </div>
+            <h3 class="btn01"><button>了解详情</button></h3>
             <img src="img/about02.png" alt="" class="img2">
         </div>
     </div>
@@ -110,6 +117,9 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/d.js"></script>
 <script src="js/l-byl.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/jquery.lettering.js"></script>
+<script src="js/jquery.textillate.js"></script>
 <script src="js/about.js"></script>
 </body>
 </html>

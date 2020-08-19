@@ -4,16 +4,21 @@
 .container1 { width: 876px;margin: auto;}
 /*banner*/
 .news-text { margin: 20px auto 30px;}
-.news-text:after{ content: "";border-bottom: 4px solid #48b4ff;display: block;margin: auto;width: 24px;}
-.news-text h2{ font-size: 28px;color: #666;line-height: 66px;margin-top: 30px;}
-.news-text p{ font-size: 16px;color: #666;line-height: 24px;margin-bottom: 37px;}
+.news-text:after{ content: "";border-bottom: 4px solid #48b4ff;display: block;margin: auto;width: 24px;transition: .8s ease-out;}
+.news-text:hover:after { width: 10%;transition: .8s ease-out;cursor: pointer;}
+.news-text h2{ font-size: 28px;color: #666;line-height: 66px;margin-top: 30px;opacity: 0;}
+.news-text p{ font-size: 16px;color: #666;line-height: 24px;margin-bottom: 37px;opacity: 0;}
 
-.quick { background: url("../img/contact.png") no-repeat;height: 200px;background-size: 100%;}
+.quick { background: url("../img/lllll.png") no-repeat;height: 600px;background-size: 100%;display: none;}
+.quick-text { margin: 250px auto 0;text-align: center;}
+.quick-text h2 { font-size: 32px;color: #fff;line-height: 50px;}
+.quick-text .rotate1 { transform: rotate(-360deg);transition: 1s ease-out;}
+.quick-text button { margin-top: 30px; width: 130px;height: 35px;background: #fff;border: none;outline: none;color: #42a5ea;font-size: 14px;letter-spacing: 2px;text-indent: 2px;}
+.quick-text button:hover { color: #fff;background: #42A5EA;}
 .quicklist { margin: 50px auto 0; overflow: hidden;}
-.quicklist img { float: left;}
 .quicklist .quicktext { float: left;margin-left: 30px;}
-.quicklist .quicktext h2{ color: #333;font-size: 16px;line-height: 32px;margin-top: 20px;}
+.quicklist .quicktext h2{ color: #333;font-size: 16px;line-height: 32px;}
 .quicklist .quicktext h2:hover { color: #48b4ff;}
-.quicklist .quicktext p{ color: #999;font-size: 13px;line-height: 24px;width: 570px;}
-.lastlist { margin-bottom: 40px;}
-.nav1 { margin: 20px auto;}
+.quicklist .quicktext p{ color: #999;font-size: 13px;line-height: 24px;width: 570px;height: 96px;}
+/*.quicklist button{ width: 100px;height: 30px;background: linear-gradient(to right,#40a5fd,#5ed8fd);border-radius: 20px;color: #fff;border: none;margin: 10px 0 0 30px;}*/
+.nav1 { margin: 60px auto 20px;}
